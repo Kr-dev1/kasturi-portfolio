@@ -20,11 +20,6 @@ export const HEADER_LINKS = [
     href: "/about",
     key: "About",
   },
-  {
-    icon: <MonitorIcon className='size-3.5' />,
-    href: "/tech",
-    key: "Tech",
-  },
 ];
 
 export const FOOTER_LINKS = [
