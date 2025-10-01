@@ -1,4 +1,4 @@
-import { FlameIcon, Linkedin, MonitorIcon, UserCircleIcon } from "lucide-react";
+import { FlameIcon, Linkedin, UserCircleIcon } from "lucide-react";
 import { SiGithub, SiX, type IconType } from "@icons-pack/react-simple-icons"
 import { SITE_GITHUB_URL, SITE_LINKEDIN_URL, SITE_X_URL } from "~/lib/constants";
 
