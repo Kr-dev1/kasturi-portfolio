@@ -38,46 +38,6 @@ const Page = () => {
 
             <Separator className="my-16" />
 
-            <motion.section
-                className="mb-16"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-            >
-                <h2 className="text-3xl font-bold mb-6">Experience</h2>
-                <div className="space-y-8">
-                    <div>
-                        <h3 className="text-xl font-semibold">Junior Frontend Developer – MarkAny</h3>
-                        <p className="text-muted-foreground text-sm">Oct 2024 – Mar 2025 · Remote</p>
-                        <ul className="list-disc pl-6 text-muted-foreground mt-2 space-y-1">
-                            <li>Optimized SaaS UI, reducing page load times by ~30% and improving engagement by 20%.</li>
-                            <li>Built subscription features with backend teams, driving 15% adoption growth in 3 months.</li>
-                            <li>Shipped production-ready features with MUI, cutting post-release bugs.</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="text-xl font-semibold">Associate MERN Developer – Meyi Cloud</h3>
-                        <p className="text-muted-foreground text-sm">Aug 2023 – Sep 2024 · Puducherry, India</p>
-                        <ul className="list-disc pl-6 text-muted-foreground mt-2 space-y-1">
-                            <li>Revamped Plant 365 SaaS UI, increasing retention by 15% and lowering churn by 10%.</li>
-                            <li>Designed 20+ reusable React/Vue components, cutting feature rollout time by 30%.</li>
-                            <li>Implemented end-to-end subscription flows (auth, billing, API integration) with MERN stack.</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="text-xl font-semibold">Freelance Web Developer</h3>
-                        <p className="text-muted-foreground text-sm">2023 – Present</p>
-                        <ul className="list-disc pl-6 text-muted-foreground mt-2 space-y-1">
-                            <li>Delivered 10+ client projects using React and Next.js.</li>
-                            <li>Built scalable web applications with MERN stack focused on responsive design and UX.</li>
-                            <li>Implemented performance optimizations like lazy loading and code splitting.</li>
-                        </ul>
-                    </div>
-                </div>
-            </motion.section>
-
 
             <Separator className="my-16" />
 
